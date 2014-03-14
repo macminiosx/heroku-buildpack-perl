@@ -102,4 +102,4 @@ echo "-----> Installing dependencies"
 cpanm --installdeps . 2>&1 | indent
 
 # clean the cache
-rm -rf $CACHE_DIR
+#rm -rf $CACHE_DIR
